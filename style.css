@@ -91,6 +91,9 @@ body {
 .testimonial-card-1 {
     grid-area: one;
     background-color: var(--Purple-500);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 5%;
 }
 
 .testimonial-card-2 {
@@ -149,6 +152,7 @@ figure {
     color: var(--White);
     margin-block: 1rem;
     font-size: var(--fs-large);
+    font-weight: 600;
 }
 
 .testimonial-para {
